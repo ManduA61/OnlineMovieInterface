@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color: slateblue;
+    --colorGry: #333;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f1f2f4;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    color: var(--colorGry);
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#header h1{
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+#header p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.addMovie{
+    background: var(--color);
+    border-radius: 20px 20px 20px 20px;
+    color: #fff;
+    width: auto;
+    height: 150px;
+    padding: 0px 20px 15px 20px;
+    margin: 0 20px;
+}
+
+.addMovie p{
+    font-size: 22px;
+    padding: 20px 0px 15px 80px;
+}
+
+.addMovie form {
+    font-size: 16px;
+    padding: 0px 0px 10px 20px;
+}
+
+.addMovie form input{
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+    margin: 7px;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    color: var(--color);
+}
+
+#addMovie {
+    display: flex;
+    flex-direction: row;
+}
+
+#product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: var(--colorGry);
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.4;
+    margin: 9px;
+    width: 900px;
+    height: 300px;
+    background: #fff;
+    color: var(--colorGry);
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px -10px rgba(66,69,90,.15);
+}
+
+.descriptionProduct{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+    width: 600px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.descriptionProduct p{
+    padding: 2px;
+}
+
+.pName {
+    font-weight: bold;
+}
+
+.sortBtnAll{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 10px 15px;
+    padding-top: 20px;
+}
+.sortBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 230px;
+    height: 50px;
+    font-size: 15px;
+    background: var(--color);
+    color: #fff;
+    margin: 5px 5px 10px 5px;
+    border-radius: 30px;
+}
+.sortBtn:hover{
+    background: #fff;
+    border: var(--color) 1.5px solid;
+    color: var(--color);
+    transition: 0.3s;
+}
+
+.fas{
+    font-size: 27px;
+}
+
+.fa-star{
+    font-size: 16px;
+}
+
+img{
+    border-radius: 20px;
+    height: 250px;
+    margin: 10px;
+}

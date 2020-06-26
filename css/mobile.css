@@ -1,0 +1,78 @@
+#header h1{
+    font-size: 2rem;
+}
+#header p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.addMovie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0px 160px 0px;
+}
+.addMovie p{
+    font-size: 18px;
+    padding: 40px 0px 0px 0px;
+}
+#addMovie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 10px 0px;
+    margin: 2px;
+}
+.addMovie form input{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 7px;
+    width: 250px;
+    height: 30px;
+}
+
+.sortBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.sortBtn p,
+.sortBtn i {
+    padding-right: 10px;
+}
+
+.product{
+    height: 240px;
+    width: 370px;
+    border-radius: 30px;
+}
+
+.fas{
+    font-size: 22px;
+}
+
+.fa-star{
+    font-size: 14px;
+}
+
+.sortBtnAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descriptionProduct{
+    padding: 0px;
+    font-size: 14px;
+}
+
+img{
+    height: 200px;
+}

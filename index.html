@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+	<title>Movie</title>
+</head>
+<body>
+		<!-- in aplicatiile moderne, site-urile nu mai sunt statice (mai multe HTML-uri)
+	pentru a face un SPA(single page application), pastram in HTML un singur element(root)
+	si incarcam HTML-ul dinamic, in mai multe fisiere .js -->
+	<div id="root"></div>
+
+
+
+	<!-- fisierele .js se incarca in ordine!  -->
+	<!-- uitati-te mai intai in index.js. daca se apeleaza vreo functie -->
+	<script type="text/javascript" src="lib/moment/moment.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/addItemsForm.js"></script>
+	<script type="text/javascript" src="js/product.js"></script>
+	<script type="text/javascript" src="js/productList.js"></script>
+	<script type="text/javascript" src="js/sort.js"></script>
+
+
+</body>
+</html>
